@@ -1,0 +1,54 @@
+# Python cache and metadata
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter/IPython checkpoints (if used)
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+.anomaly-env/
+.anaconda3/
+.venv/
+.env_anomaly_detection/
+env_anomaly_detection/
+
+
+# VSCode / PyCharm / editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model and pipeline artifacts (optional)
+*.keras
+*.h5
+*.pkl
+*.joblib
+*.json
+*.log
+
+
+
+# Streamlit file cache
+.streamlit/
+
+# TensorFlow or Keras log files and checkpoints
+checkpoints/
+events.out.tfevents.*
+
+# Other personal dev artifacts
+*.bak
+*.swp
+
+*.keras
+*.h5
+*.ckpt
+reconstruction_error.png
